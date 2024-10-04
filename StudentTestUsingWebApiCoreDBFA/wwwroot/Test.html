@@ -1,0 +1,17 @@
+﻿<!-- wwwroot/pages/test.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script src="/User.js"></script>
+</head>
+<body onload="startTest()">
+    <h1>Test</h1>
+    <form id="questionsForm" onsubmit="event.preventDefault(); submitTest();">
+        <div id="questions"></div><br>
+        <button type="submit">Submit Test</button>
+    </form>
+</body>
+</html>
